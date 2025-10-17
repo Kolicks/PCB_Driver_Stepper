@@ -1,16 +1,17 @@
 # 🌀 PCB_Driver_Stepper
 **General Stepper Motor Driver Board**
 
+## 🎬 Demo Video
+[▶️ Watch Demo](Test_media/NEMA_Stepper.mp4)
+
+https://github.com/user-attachments/assets/646c0d09-2157-4537-b24f-0206d356a9b6
+
 ---
 
 ## 📘 Overview
 **PCB_Driver_Stepper** is a general-purpose stepper motor driver board designed in **KiCad 9**.  
 This project was created to explore stepper motor control concepts, test design ideas from friends, and gain real experience with PCB design and STM32 microcontroller integration.  
 It also represents my first complete project combining **hardware and STM32 firmware** using **STM32CubeIDE**.
-
-## 🎬 Demo Video
-[▶️ Watch Demo](Test_media/NEMA_Stepper.mp4)
-
 
 <p align="center">
   <img src="images/3D.png" alt="3D Render" width="500"/>
