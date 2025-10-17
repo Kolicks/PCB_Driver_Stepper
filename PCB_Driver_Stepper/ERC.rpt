@@ -1,0 +1,180 @@
+ERC report (2025-08-18T11:55:21+0200, Encoding UTF8)
+
+***** Sheet /
+[multiple_net_names]: Both VCC_12V and +12V are attached to the same items; VCC_12V will be used in the netlist
+    ; warning
+    @(3750 mils, 1550 mils): Global Label 'VCC_12V'
+    @(4100 mils, 1500 mils): Symbol #PWR0107 Pin 1 [Power input, Line]
+[net_not_bus_member]: Net /M1_CLK is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(4900 mils, 2150 mils): Bus to Wire Entry
+    @(4800 mils, 2250 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M1_PS is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(4900 mils, 2250 mils): Bus to Wire Entry
+    @(4800 mils, 2350 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M1_MODE1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(4900 mils, 2450 mils): Bus to Wire Entry
+    @(4800 mils, 2550 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M1_MODE0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(4900 mils, 2550 mils): Bus to Wire Entry
+    @(4800 mils, 2550 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M1_EN is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(4900 mils, 2650 mils): Bus to Wire Entry
+    @(4800 mils, 2750 mils): Vertical Bus, length 1650 mils
+[net_not_bus_member]: Net /M2_MODE1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(5400 mils, 3100 mils): Bus to Wire Entry
+    @(5300 mils, 3100 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M1_CK is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(4800 mils, 4600 mils): Bus to Wire Entry
+    @(4800 mils, 4600 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M2_CLK is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(5300 mils, 5100 mils): Bus to Wire Entry
+    @(5300 mils, 3400 mils): Vertical Bus, length 1700 mils
+[net_not_bus_member]: Net /M2_PS is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(5300 mils, 5200 mils): Bus to Wire Entry
+    @(5300 mils, 5100 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M2_CK is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(5300 mils, 5300 mils): Bus to Wire Entry
+    @(5300 mils, 5300 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M2_MODE0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(5300 mils, 5500 mils): Bus to Wire Entry
+    @(5300 mils, 5400 mils): Vertical Bus, length 100 mils
+[net_not_bus_member]: Net /M2_EN is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; warning
+    @(5300 mils, 5600 mils): Bus to Wire Entry
+    @(5300 mils, 5500 mils): Vertical Bus, length 100 mils
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(9200 mils, 1400 mils): Symbol #PWR0101 Pin 1 [Power input, Line]
+[multiple_net_names]: Both VCC_3V3 and +3V3 are attached to the same items; VCC_3V3 will be used in the netlist
+    ; warning
+    @(3550 mils, 1550 mils): Global Label 'VCC_3V3'
+    @(9200 mils, 3050 mils): Symbol #PWR0104 Pin 1 [Power input, Line]
+
+***** Sheet /PSU/
+[similar_labels]: Labels are similar (lower/upper case difference only)
+    ; warning
+    @(2550 mils, 2250 mils): Hierarchical Label 'Vdd'
+    @(1700 mils, 1400 mils): Global Label 'VDD'
+
+***** Sheet /MCU/
+[multiple_net_names]: Both +3V3 and VCC_3V3 are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(6450 mils, 6450 mils): Symbol #PWR0318 Pin 1 [Power input, Line]
+    @(1200 mils, 950 mils): Hierarchical Label 'VCC_3V3'
+[multiple_net_names]: Both +12V and VCC_12V are attached to the same items; +12V will be used in the netlist
+    ; warning
+    @(1500 mils, 1050 mils): Symbol #PWR0302 Pin 1 [Power input, Line]
+    @(1200 mils, 1050 mils): Hierarchical Label 'VCC_12V'
+
+***** Sheet /DRIVERS/
+[multiple_net_names]: Both +3V3 and VCC_3V3 are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(6100 mils, 7300 mils): Symbol #PWR0439 Pin 1 [Power input, Line]
+    @(1150 mils, 850 mils): Hierarchical Label 'VCC_3V3'
+[multiple_net_names]: Both +12V and VCC_12V are attached to the same items; +12V will be used in the netlist
+    ; warning
+    @(4750 mils, 9850 mils): Symbol #PWR0454 Pin 1 [Power input, Line]
+    @(1150 mils, 950 mils): Hierarchical Label 'VCC_12V'
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8500 mils, 2200 mils): Symbol U401 Pin 1 [GND, Power output, Line]
+    @(8500 mils, 3000 mils): Symbol U401 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8500 mils, 3100 mils): Symbol U401 Pin 10 [CR, Unspecified, Line]
+    @(5600 mils, 3600 mils): Symbol C401 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(8500 mils, 3200 mils): Symbol U401 Pin 11 [TEST0, Bidirectional, Line]
+    @(8500 mils, 3000 mils): Symbol U401 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8500 mils, 3300 mils): Symbol U401 Pin 12 [MTH, Unspecified, Line]
+    @(6550 mils, 3600 mils): Symbol C402 Pin 1 [Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(8500 mils, 3400 mils): Symbol U401 Pin 13 [VREF, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(8500 mils, 3500 mils): Symbol U401 Pin 14 [PS, Unspecified, Line]
+    @(7750 mils, 2400 mils): Symbol U301 Pin 7 [PA1, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8500 mils, 6200 mils): Symbol U402 Pin 1 [GND, Power output, Line]
+    @(8500 mils, 7000 mils): Symbol U402 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(10300 mils, 2200 mils): Symbol U401 Pin EPAD [EPAD, Unspecified, Line]
+    @(10850 mils, 2200 mils): Symbol #PWR0408 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(10300 mils, 3100 mils): Symbol U401 Pin 20 [ENABLE, Unspecified, Line]
+    @(7750 mils, 3000 mils): Symbol U301 Pin 13 [PA7, Bidirectional, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(10300 mils, 3400 mils): Symbol U401 Pin 17 [TEST1, Bidirectional, Line]
+    @(8500 mils, 3000 mils): Symbol U401 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(10300 mils, 3500 mils): Symbol U401 Pin 16 [CW_CCW, Unspecified, Line]
+    @(7750 mils, 2300 mils): Symbol U301 Pin 6 [PA0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(10300 mils, 3600 mils): Symbol U401 Pin 15 [CLK, Unspecified, Line]
+    @(7750 mils, 2700 mils): Symbol U301 Pin 10 [PA4, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(8500 mils, 7000 mils): Symbol U402 Pin 9 [GND, Power output, Line]
+    @(8500 mils, 3000 mils): Symbol U401 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8500 mils, 7100 mils): Symbol U402 Pin 10 [CR, Unspecified, Line]
+    @(5600 mils, 7600 mils): Symbol C404 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(8500 mils, 7200 mils): Symbol U402 Pin 11 [TEST0, Bidirectional, Line]
+    @(8500 mils, 7000 mils): Symbol U402 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8500 mils, 7300 mils): Symbol U402 Pin 12 [MTH, Unspecified, Line]
+    @(6550 mils, 7600 mils): Symbol C405 Pin 1 [Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(8500 mils, 7400 mils): Symbol U402 Pin 13 [VREF, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(8500 mils, 7500 mils): Symbol U402 Pin 14 [PS, Unspecified, Line]
+    @(7750 mils, 3800 mils): Symbol U301 Pin 25 [PA15, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(10300 mils, 6200 mils): Symbol U402 Pin EPAD [EPAD, Unspecified, Line]
+    @(10850 mils, 6200 mils): Symbol #PWR0430 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(10300 mils, 7100 mils): Symbol U402 Pin 20 [ENABLE, Unspecified, Line]
+    @(7750 mils, 3100 mils): Symbol U301 Pin 18 [PA8, Bidirectional, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(10300 mils, 7400 mils): Symbol U402 Pin 17 [TEST1, Bidirectional, Line]
+    @(8500 mils, 7000 mils): Symbol U402 Pin 9 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(10300 mils, 7500 mils): Symbol U402 Pin 16 [CW_CCW, Unspecified, Line]
+    @(7750 mils, 3400 mils): Symbol U301 Pin 21 [PA11, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(10300 mils, 7600 mils): Symbol U402 Pin 15 [CLK, Unspecified, Line]
+    @(7750 mils, 3500 mils): Symbol U301 Pin 22 [PA12, Bidirectional, Line]
+
+ ** ERC messages: 43  Errors 6  Warnings 37

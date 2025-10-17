@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Prova_Ricard_Driver_Simbol")(type "KiCad")(uri "${KIPRJMOD}/Prova_Ricard_Driver_Simbol.kicad_sym")(options "")(descr ""))
+)

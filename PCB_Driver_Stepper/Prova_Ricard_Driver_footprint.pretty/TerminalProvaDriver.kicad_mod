@@ -1,0 +1,100 @@
+(footprint "TerminalProvaDriver"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b98d62a1-9d99-46f5-a897-945fdf38d0e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TerminalProvaDriver"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8fc3f2e-093e-4246-8089-5d7fc464bf12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d13873e-224e-43cc-b3f5-ebc0d0b42e03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc0bc35a-47fe-4026-9d30-8ae3bc424068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3f2ec15-191f-448f-8d6c-2c69f7b57bae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 5.08)
+		(size 0.7 0.7)
+		(drill 0.5)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "069546d9-3ed3-484b-9c07-4916488b5dbc")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.27 5.08)
+		(size 0.7 0.7)
+		(drill 0.5)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "805fcc35-b3c1-40f1-877f-18f5fd261688")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 5.08)
+		(size 0.7 0.7)
+		(drill 0.5)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "53bffc29-e8db-4ef5-915b-9e05b99f1158")
+	)
+	(embedded_fonts no)
+)
