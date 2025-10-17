@@ -64,6 +64,7 @@ It also represents my first complete project combining **hardware and STM32 firm
 ## ⚠️ Known Issues / Notes
 - Thermal pads on the **Rsense GND pads** restrict efficient heat dissipation.
 - Ideally should maintain a **4-layer design** to ensure proper driver thermal management (as recommended in datasheets).
+- Too many bypass Capacitors on the MCU.
 - **No status LEDs** (e.g., Power or Fault indicators) currently included — consider adding in future revisions.
 
 ---
