@@ -1,15 +1,6 @@
 # 🌀 PCB_Driver_Stepper
 **General Stepper Motor Driver Board**
 
-## 🎬 Demo Video
-[▶️ Watch Demo](Test_media/NEMA_Stepper.mp4)
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/646c0d09-2157-4537-b24f-0206d356a9b6" width="600" controls></video>
-  <br>
-  <em>Demo of the finished PCB_Driver_Stepper board</em>
-</p>
-
 ---
 
 ## 📘 Overview
@@ -68,3 +59,18 @@ It also represents my first complete project combining **hardware and STM32 firm
 ---
 
 ## 🧩 Files and Structure
+
+<p align="center">
+  <a href="https://github.com/Kolicks/PCB_Driver_Stepper" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Visit%20Repo-blue?logo=github&style=for-the-badge" alt="GitHub Repo">
+  </a>
+</p>
+
+## 🎬 Demo Video
+[▶️ Watch Demo](Test_media/NEMA_Stepper.mp4)
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/646c0d09-2157-4537-b24f-0206d356a9b6" width="600" controls></video>
+  <br>
+  <em>Demo NEMA Stepper</em>
+</p>
