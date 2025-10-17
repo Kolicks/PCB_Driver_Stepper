@@ -4,7 +4,11 @@
 ## 🎬 Demo Video
 [▶️ Watch Demo](Test_media/NEMA_Stepper.mp4)
 
-https://github.com/user-attachments/assets/646c0d09-2157-4537-b24f-0206d356a9b6
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/646c0d09-2157-4537-b24f-0206d356a9b6" width="600" controls></video>
+  <br>
+  <em>Demo of the finished PCB_Driver_Stepper board</em>
+</p>
 
 ---
 
