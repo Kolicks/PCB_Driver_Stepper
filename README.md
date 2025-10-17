@@ -20,14 +20,14 @@ It also represents my first complete project combining **hardware and STM32 firm
 - First real **KiCad 9** project.
 - Implemented to test and validate several design ideas.
 - Tested multiple implementations, including **ULN2002** and different **power dissipation** techniques.
-- Designed with **4 layers**, though a **2-layer** version could be feasible.
+- Designed with **4 layers**, though a **2-layer** version could be achieved.
 - Typical **FR4 PCB**, **1.6 mm thickness**, standard prepreg stackup.
-- Serves as my first practical integration within **STM32CubeIDE**, using **STM32F030K6Tx** as the MCU.
+- Serves as my first practical integration within **STM32CubeIDE**, using **STM32F030K6T6** as the MCU.
 
 <p align="center">
   <img src="images/SCH.png" alt="Schematic" width="600"/>
   <br>
-  <em>Full schematic diagram (KiCad 9)</em>
+  <em>Schematic, Block diagram (KiCad 9)</em>
 </p>
 
 ---
@@ -38,7 +38,7 @@ It also represents my first complete project combining **hardware and STM32 firm
 - Capable of controlling **two stepper motors** simultaneously.
 - Supports up to **2 A per motor**, limited by drivers and onboard potentiometers.
 - **Operating voltage:** 12 VDC to 24 VDC (ideal at 24 V).
-- Requires **external cooling** (top and bottom) for continuous operation.
+- Requires **external cooling** (top and bottom) for continuous operation (Alimunium or Copper Radiators used in real test).
 - Integrated with **ULN2002A** as input mode (tested and working).
 - Uses **pin connectors under driver GND pads** to allow hand-soldering.
 - Optional **Schottky diodes** for additional protection and power isolation.
@@ -46,13 +46,13 @@ It also represents my first complete project combining **hardware and STM32 firm
 <p align="center">
   <img src="images/PCB.png" alt="PCB Layout" width="600"/>
   <br>
-  <em>PCB layout view showing 4-layer design</em>
+  <em>PCB layout design</em>
 </p>
 
 ---
 
 ## ⚠️ Known Issues / Notes
-- Thermal pads on the **Rsense GND pads** may restrict efficient heat dissipation.
+- Thermal pads on the **Rsense GND pads** restrict efficient heat dissipation.
 - Ideally should maintain a **4-layer design** to ensure proper driver thermal management (as recommended in datasheets).
 - **No status LEDs** (e.g., Power or Fault indicators) currently included — consider adding in future revisions.
 
