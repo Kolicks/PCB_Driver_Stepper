@@ -69,6 +69,49 @@ It also represents my first complete project combining **hardware and STM32 firm
 
 ---
 
+## 🧩 Files and Structure
+
+<p align="center">
+  <a href="https://github.com/Kolicks/PCB_Driver_Stepper" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Visit%20Repo-blue?logo=github&style=for-the-badge" alt="GitHub Repo">
+  </a>
+</p>
+
+PCB_Driver_Stepper/
+
+├── schematic/ # KiCad schematic files
+
+├── pcb_layout/ # KiCad PCB layout files
+
+├── gerbers/ # Gerber fabrication files
+
+├── images/ # Rendered visuals (3D, SCH, PCB)
+
+├── LICENSE # Hardware license (CERN-OHL-P v2.0)
+
+└── README.md # Project documentation
+
+
+---
+
+## 📜 License
+This hardware design is released under the **CERN Open Hardware License v2 – Permissive (CERN-OHL-P-2.0)**.  
+You are free to use, modify, and distribute this design, provided that:
+- The license is included with redistributions.
+- Proper credit is given to the original author.
+
+More info: https://cern-ohl.web.cern.ch/
+
+---
+
+## 👤 Author
+**Project:** PCB_Driver_Stepper  
+**Author:** Kolicks  
+**Toolchain:** KiCad 9  
+**Version:** 9.0  
+
+---
+
 ## 🧱 Future Improvements
 
 - **Thermal Design Enhancements:**  
@@ -89,10 +132,4 @@ It also represents my first complete project combining **hardware and STM32 firm
 
 ---
 
-## 🧩 Files and Structure
-
-<p align="center">
-  <a href="https://github.com/Kolicks/PCB_Driver_Stepper" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Visit%20Repo-blue?logo=github&style=for-the-badge" alt="GitHub Repo">
-  </a>
-</p>
+⭐ *If you find this project useful or educational, please consider starring the repository and sharing feedback!*
