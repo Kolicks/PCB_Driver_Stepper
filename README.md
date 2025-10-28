@@ -69,6 +69,26 @@ It also represents my first complete project combining **hardware and STM32 firm
 
 ---
 
+## 🧱 Future Improvements
+
+- **Thermal Design Enhancements:**  
+  - Improve **thermal via networks** around driver ICs.  
+  - Add **dedicated copper areas** and optional heatsink support for improved temperature control.  
+
+- **User Feedback & Indicators:**  
+  - Integrate **status LEDs** for power, enable, and fault signals.  
+  - Add a **motor activity indicator** (blinking per step pulse).  
+
+- **Electrical Optimization:**   
+  - Consider **thicker copper (2 oz)** for better power handling.  
+  - Optimize **Rsense trace routing** to reduce noise coupling.  
+
+- **Mechanical Improvements:**  
+  - Adjust mounting hole positions for compatibility with standard enclosures.  
+  - Add **labeling and silkscreen clarity** for easier connection identification.  
+
+---
+
 ## 🧩 Files and Structure
 
 <p align="center">
