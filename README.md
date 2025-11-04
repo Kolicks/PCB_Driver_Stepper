@@ -61,6 +61,23 @@ It also represents my first complete project combining **hardware and STM32 firm
 
 ---
 
+---
+
+## 🔧 Panelization
+- **Fully functional**, designed for **JLCPCB** fabrication process.  
+- Created as an **exercise in PCB manufacturing and panelization design**.  
+- Explored **V-cut (scoring) limitations**, fabrication tolerances, and how they affect mechanical integrity and assembly.  
+- Observed potential **issues with scoring alignment and stress concentration** across panelized edges.  
+- **Not required for this project**, as the board’s size and simplicity make panelization **unnecessary and potentially inefficient** for performance or cost.  
+
+<p align="center">
+  <img src="images/3D_Panel.png" alt="PCB Layout" width="600"/>
+  <br>
+  <em>Panel layout design</em>
+</p>
+
+---
+
 ## ⚠️ Known Issues / Notes
 - Thermal pads on the **Rsense GND pads** restrict efficient heat dissipation.
 - Ideally should maintain a **4-layer design** to ensure proper driver thermal management (as recommended in datasheets).
@@ -115,8 +132,8 @@ More info: https://cern-ohl.web.cern.ch/
 ## 🧱 Future Improvements
 
 - **Thermal Design Enhancements:**  
-  - Improve **thermal via networks** around driver ICs.  
-  - Add **dedicated copper areas** and optional heatsink support for improved temperature control.  
+  - Improve **thermal via networks** around driver ICs.  (Done in Panelization)
+  - Add **dedicated copper areas** and optional heatsink support for improved temperature control.  (Done in Panelization)
 
 - **User Feedback & Indicators:**  
   - Integrate **status LEDs** for power, enable, and fault signals.  
@@ -124,7 +141,7 @@ More info: https://cern-ohl.web.cern.ch/
 
 - **Electrical Optimization:**   
   - Consider **thicker copper (2 oz)** for better power handling.  
-  - Optimize **Rsense trace routing** to reduce noise coupling.  
+  - Optimize **Rsense trace routing** to reduce noise coupling.  (Done in Panelization)
 
 - **Mechanical Improvements:**  
   - Adjust mounting hole positions for compatibility with standard enclosures.  
